@@ -11,6 +11,11 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Marchen&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
 </head>
 
@@ -18,7 +23,9 @@
     <div class="feed-wrapper">
         <!---------------------------------NAVBAR--------------------------------->
         <div class="d-flex mb-3">
-            <div class="me-auto p-2"><i class="fab fa-instagram">Instagram</i>
+            <div class="me-auto p-2 d-flex align-items-center">
+                <i class="fab fa-instagram fa-2x me-2"></i>
+                <h3 class="noto-sans-marchen-regular m-0">Instagram</h3>
             </div>
             <div class="p-2">
                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -141,14 +148,14 @@
                     <div class="row justify-content-center">
                         <!-- Imagen 1 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Port of Portugal</p>
-                                <p>02/10</p>
+                            <div class="d-flex justify-content-between" id="Photo-1">
+                                <b class="title-feed m-0 d-flex align-items-end">Port of Portugal</b>
+                                <p class="m-0 d-flex align-items-start">02/10</p>
                             </div>
                             <div><img
                                     src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Port" class="feed-img"></div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>537 Likes</b></div>
                                 <div class="p-2">
                                     <p>Beautiful picture of Portugal <br> #portugal #port</p>
@@ -157,15 +164,15 @@
                         </div>
                         <!-- Imagen 2 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>City</p>
-                                <p>09/17</p>
+                            <div class="d-flex justify-content-between" id="Photo-2">
+                                <b class="title-feed m-0 d-flex align-items-end">City</b>
+                                <p class="m-0 d-flex align-items-start">09/17</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1585208798174-6cedd86e019a?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="City" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>824 Likes</b></div>
                                 <div class="p-2">
                                     <p>Walking through the beautiful city of Portugal <br> #fitness #excercise</p>
@@ -174,15 +181,15 @@
                         </div>
                         <!-- Imagen 3 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Dinner time</p>
-                                <p>03/08</p>
+                            <div class="d-flex justify-content-between" id="Photo-3">
+                                <b class="title-feed m-0 d-flex align-items-end">Dinner time</b>
+                                <p class="m-0 d-flex align-items-start">03/08</p>
                             </div>
                             <div>
                                 <img src="https://plus.unsplash.com/premium_photo-1681841594224-ad729a249113?q=80&w=754&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="restaurant" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>267 Likes</b></div>
                                 <div class="p-2">
                                     <p>Having a great meal with my friends <br>#Friends #Family</p>
@@ -191,15 +198,15 @@
                         </div>
                         <!-- Imagen 4 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Outdoor</p>
-                                <p>05/12</p>
+                            <div class="d-flex justify-content-between" id="Photo-4">
+                                <b class="title-feed m-0 d-flex align-items-end">Outdoor</b>
+                                <p class="m-0 d-flex align-items-start">05/12</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1528364226066-ec76a960030b?q=80&w=1135&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Outdoor" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>194 Likes</b></div>
                                 <div class="p-2">
                                     <p>Enjoying a stroll outdoors <br>#nature #Close to nature </p>
@@ -208,15 +215,15 @@
                         </div>
                         <!-- Imagen 5 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Little cat</p>
-                                <p>09/23</p>
+                            <div class="d-flex justify-content-between" id="Photo-5">
+                                <b class="title-feed m-0 d-flex align-items-end">Little cat</b>
+                                <p class="m-0 d-flex align-items-start">09/23</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Cat" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>847 Likes</b></div>
                                 <div class="p-2">
                                     <p>That is my beautiful baby <br>#cat #LittleBaby</p>
@@ -225,15 +232,15 @@
                         </div>
                         <!-- Imagen 6 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Family time</p>
-                                <p>06/17</p>
+                            <div class="d-flex justify-content-between" id="Photo-6">
+                                <b class="title-feed m-0 d-flex align-items-end">Family time</b>
+                                <p class="m-0 d-flex align-items-start">06/17</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?q=80&w=1054&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Family time" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>1256 Likes</b></div>
                                 <div class="p-2">
                                     <p>Enjoying a walk with my family <br>#Family</p>
@@ -242,15 +249,15 @@
                         </div>
                         <!-- Imagen 7 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>The best team</p>
-                                <p>03/08</p>
+                            <div class="d-flex justify-content-between" id="Photo-7">
+                                <b class="title-feed m-0 d-flex align-items-end">The best team</b>
+                                <p class="m-0 d-flex align-items-start">03/08</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1434648957308-5e6a859697e8?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Stadium" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>389 Likes</b></div>
                                 <div class="p-2">
                                     <p>#FootballTime #TheBestTeam</p>
@@ -259,15 +266,15 @@
                         </div>
                         <!-- Imagen 8 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Traditional drink</p>
-                                <p>04/06</p>
+                            <div class="d-flex justify-content-between" id="Photo-8">
+                                <b class="title-feed m-0 d-flex align-items-end">Traditional drink</b>
+                                <p class="m-0 d-flex align-items-start">04/06</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1687920492018-e21cad9023d9?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Mate" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>184 Likes</b></div>
                                 <div class="p-2">
                                     <p>Enjoying the traditions of my country <br>#Mate #Uruguay</p>
@@ -276,15 +283,15 @@
                         </div>
                         <!-- Imagen 9 -->
                         <div class="col-8">
-                            <div class="d-flex justify-content-between">
-                                <p>Focus Time</p>
-                                <p>02/10</p>
+                            <div class="d-flex justify-content-between" id="Photo-9">
+                                <b class="title-feed m-0 d-flex align-items-end">Focus Time</b>
+                                <p class="m-0 d-flex align-items-start">02/10</p>
                             </div>
                             <div>
                                 <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Study" class="feed-img">
                             </div>
-                            <div class="d-flex flex-column mb-4">
+                            <div class="d-flex flex-column">
                                 <div class="p-2"><b>74 Likes</b></div>
                                 <div class="p-2">
                                     <p>Preparing for my future <br>#Study #Future</p>

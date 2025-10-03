@@ -4,6 +4,21 @@ body {
     padding: 2rem 0;
 }
 
+#Photo-1,
+#Photo-2,
+#Photo-3,
+#Photo-4,
+#Photo-5,
+#Photo-6,
+#Photo-7,
+#Photo-8,
+#Photo-9 {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 45px;
+    font-family: "Noto Sans Marchen", sans-serif;
+}
+
 .feed-img {
     width: 100%;
     height: 100%;
@@ -29,3 +44,15 @@ body {
     padding-right: 0%;
 }
 
+.noto-sans-marchen-regular {
+    font-family: "Noto Sans Marchen", sans-serif;
+}
+
+.me-auto.p-2.logo {
+    display: flex;
+}
+
+.title-feed {
+    font-size: 20px;
+    text-align: center;
+}
